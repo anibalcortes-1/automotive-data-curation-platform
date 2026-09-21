@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Data (keep structure, ignore large files)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Reports
+reports/generated/*.txt
+reports/generated/*.html
+reports/figures/*.png
+reports/figures/*.pdf
+
+# Database
+*.db
+*.sqlite
+
+# Streamlit & Secrets
+.streamlit/secrets.toml
+*firebase*.json
+*serviceAccountKey*.json
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
